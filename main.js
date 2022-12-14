@@ -36,12 +36,12 @@ let track_list = [
 	image: "assets/akj-sangat.png",
 	path: "assets/simran2.mp3"
 },
-// {
-// 	name: "Waheguru Simran",
-// 	artist: "Bhai Manpreet Singh Ji",
-// 	image: "assets/bhai-manpreet-singh-ji.jpg",
-// 	path: "assets/simran3.mp3",
-// },
+{
+	name: "Waheguru Simran",
+	artist: "Bhai Manpreet Singh Ji",
+	image: "assets/bhai-manpreet-singh-ji.jpg",
+	path: "assets/simran3.mp3",
+},
 {
 	name: "Waheguru Simran",
 	artist: "Bhai Parminder Singh Ji",
