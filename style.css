@@ -162,7 +162,7 @@ body {
         margin-top: -15px;
     }
     .now-playing {
-        font-size: 600;
+        font-weight: 600;
     }
     .track-artist {
         margin-top: 10px;
@@ -172,6 +172,7 @@ body {
     }
     .track-name {
         text-align: center;
+        font-size: 2.5rem;
     }
     @media only screen and (max-width: 767px) {
         .track-name {
