@@ -3,8 +3,10 @@
 
 <head>
     <title>Simran Player</title>
-    <!-- Load FontAwesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 
     <!-- Load the custom CSS style file -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -24,28 +26,28 @@
         <!-- Define the section for displaying track buttons -->
         <div class="buttons">
             <div class="prev-track" onclick="prevTrack()">
-                <i class="fa fa-step-backward fa-2x"></i>
+                <img src="./assets/prev.svg" alt="">
             </div>
             <div class="playpause-track" onclick="playpauseTrack()">
-                <i class="fa fa-play-circle fa-5x"></i>
+                <img src="./assets/play.svg" alt="">
             </div>
             <div class="next-track" onclick="nextTrack()">
-                <i class="fa fa-step-forward fa-2x"></i>
+                <img src="./assets/next.svg" alt="">
             </div>
         </div>
 
         <!-- Define the section for displaying the seek slider-->
-        <div class="slider_container">
+        <div class="slider_container mt--15">
             <div class="current-time">00:00</div>
             <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
             <div class="total-duration">00:00</div>
         </div>
 
         <!-- Define the section for displaying the volume slider-->
-        <div class="slider_container">
-            <i class="fa fa-volume-down"></i>
+        <div class="slider_container mt-15">
+            <img src="./assets/low-vol.svg" alt="">
             <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-            <i class="fa fa-volume-up"></i>
+            <img src="./assets/high-vol.svg" alt="">
         </div>
     </div>
 

@@ -25,25 +25,25 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
 {
-	name: "Waheguru Simran",
+	name: "Waheguru Simran 💕",
 	artist: "Bhai Joginder Singh Ji",
 	image: "assets/bhai-joginder-singh-ji.jfif",
 	path: "assets/simran1.mp3"
 },
 {
-	name: "Waheguru Simran",
+	name: "Waheguru Simran 💕",
 	artist: "AKJ Sangat",
 	image: "assets/akj-sangat.png",
 	path: "assets/simran2.mp3"
 },
 {
-	name: "Waheguru Simran",
+	name: "Waheguru Simran 💕",
 	artist: "Bhai Manpreet Singh Ji",
 	image: "assets/bhai-manpreet-singh-ji.jpg",
 	path: "assets/simran3.mp3",
 },
 {
-	name: "Waheguru Simran",
+	name: "Waheguru Simran 💕",
 	artist: "Bhai Parminder Singh Ji",
 	image: "assets/bhai-parminder-singh-ji.jfif",
 	path: "assets/simran4.mp3",
@@ -115,7 +115,7 @@ function loadTrack(track_index) {
         isPlaying = true;
         
         // Replace icon with the pause icon
-        playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+        playpause_btn.innerHTML = '<img src="./assets/pause.svg" alt="">';
         }
         
         function pauseTrack() {
@@ -124,7 +124,7 @@ function loadTrack(track_index) {
         isPlaying = false;
         
         // Replace icon with the play icon
-        playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
+        playpause_btn.innerHTML = '<img src="./assets/play.svg" alt="">';
         }
         
         function nextTrack() {

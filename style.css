@@ -138,4 +138,49 @@ body {
     i.fa-step-backward {
     cursor: pointer;
     }
+
+    .buttons {
+        height: 158px;
+    }
     
+    .buttons img {
+        width: 100%;
+        width: 76px;
+    }
+    .buttons .prev-track img,
+    .buttons .next-track img {
+        width: 30px;
+    }
+    .slider_container img {
+        width: 20px;
+        margin-left: 10px
+    }
+    .slider_container.mt-15 {
+        margin-top: 15px
+    }
+    .mt--15 {
+        margin-top: -15px;
+    }
+    .now-playing {
+        font-size: 600;
+    }
+    .track-artist {
+        margin-top: 10px;
+    }
+    .playpause-track {
+        height: 76px;
+    }
+    .track-name {
+        text-align: center;
+    }
+    @media only screen and (max-width: 767px) {
+        .track-name {
+            text-align: center;
+            font-size: 2.4em;
+        }
+      }
+      @media only screen and (max-width: 361px) {
+        body {
+            transform: scale(0.8);
+        }
+      }
